@@ -9,7 +9,7 @@
   DISTRICT     : CALICUT
   SEX          : MALE
  
-  QUALIFICATION:diploma
+  QUALIFICATION:iti
   MOB          :9544003378
 
 
