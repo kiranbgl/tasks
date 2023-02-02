@@ -4,13 +4,29 @@
             table
         </title>
         <style>
-            table,th,td{ border: 1px solid black;
-
+            table{
+                border: 1px solid green; border-collapse: collapse;
+            }
+            th,td {
+                text-align: center;
+                padding: 10px;
+                background-color: aqua;
+            }
+            th{
+                color: red;
+                background-color: azure;
+            }
+            td{
+                color: green;
+            }
+            caption{
+                font-size: 20px; color: blue;
             }
         </style>
     </head>
     <body>
-  <table>
+  <table style="width: 25px;" border="1px"> 
+    <caption>TABLE</caption>
     <tr>
         <th>SI NO</th>
         <th>NAME</th>
@@ -28,5 +44,12 @@
     <td>27</td>
     <td>nit</td>
 </tr>
-  </table>
+<tr>
+<td>3</td>
+<td>varun</td>
+<td>27</td>
+<td>clt</td>
+</tr>
+</table>
     </body>
+</html>
